@@ -1,0 +1,35 @@
+bloodType
+quantity
+needDate
+patientGender
+
+comments
+contactInfo
+donnerFound
+hospitalAddress
+hospitalName
+location
+notes
+patientDescription
+postComments
+postDate
+postID
+postUserID
+relation
+remarks
+report
+status
+
+    postBasic.setStatus
+    postBasic.setBloodType
+    postBasic.setQuantity
+    postBasic.setNeedDate
+    postBasic.setPatientGender
+    postBasic.setRelation
+    postBasic.setHospitalName
+    postBasic.setHospitalAddress
+    postBasic.setLocation
+    postBasic.setContactInfo
+    postBasic.setPatientDescription
+    postBasic.setEmarks
+    postBasic.setNotes

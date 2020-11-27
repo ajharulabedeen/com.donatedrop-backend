@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.concretepage_org.gobeshona_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <!--<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>-->
+    <!--<class>org.gobeshona.articles.models.ArticlesComments</class>-->
+    <!--<class>org.gobeshona.articles.models.ArticlesVotes</class>-->
+    <!--<class>org.gobeshona.articles.models.ArticlesCommentsVotes</class>-->
+    <!--<class>Developer</class>-->
+    <!--<class>Technology</class>-->
+    <class>com.donatedrop.geocode.models.Districts</class>
+    <class>com.donatedrop.geocode.models.Divisions</class>
+    <class>com.donatedrop.geocode.models.Upazilas</class>
+    <class>com.donatedrop.geocode.models.Unions</class>
+    <class>com.donatedrop.models.Address</class>
+    <class>com.donatedrop.profile.model.EmergencyContact</class>
+    <class>com.donatedrop.profile.model.ProfileBasic</class>
+    <class>com.donatedrop.profile.model.ProfileAbouts</class>
+    <class>com.donatedrop.profile.model.ProfileJobs</class>
+    <class>com.donatedrop.profile.model.ProfileEducation</class>
+    <class>com.donatedrop.models.Address</class>
+    <class>com.donatedrop.history.History</class>
+    <class>com.donatedrop.agent.donner.models.DonnerRequestToAgent</class>
+    <class>com.donatedrop.agent.donner.models.DonnerAssingment</class>
+    <class>com.donatedrop.agent.donner.models.DonnerAssingShow</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/donate_drop?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
