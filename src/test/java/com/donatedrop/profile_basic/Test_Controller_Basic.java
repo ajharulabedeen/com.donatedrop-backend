@@ -284,7 +284,7 @@ public class Test_Controller_Basic extends AbstractTest {
 //        Assert.assertEquals(distSaved, distNew);
     }
 
-    @Test
+//    @Test
 //    @Order(6)
     public void test7_updatePermanentAddress() throws Exception {
         String uri = "/public/profile/basic/updatePermanentAddress";
@@ -353,7 +353,7 @@ public class Test_Controller_Basic extends AbstractTest {
 
     }
 
-    @Test
+//    @Test
     @Order(12)
     public void test12_deleteEmergencyContact() throws Exception {
         String emergencyContactID = "200";
@@ -375,7 +375,7 @@ public class Test_Controller_Basic extends AbstractTest {
         assertEquals(StringUtil.OK, result.get(StringUtil.STATUS));
     }
 
-    @Test
+//    @Test
     @Order(11)
     public void test11_updateEmergencyContact() throws Exception {
 ////        Arrange

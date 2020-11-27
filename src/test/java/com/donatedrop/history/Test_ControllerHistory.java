@@ -79,7 +79,7 @@ public class Test_ControllerHistory extends AbstractTest {
     }
 
     //    String uri = "/public/user/history/update";
-    @Test
+//    @Test
     @Order(2)
     public void testUpdate() throws Exception {
         String uri = "/public/user/history/update";

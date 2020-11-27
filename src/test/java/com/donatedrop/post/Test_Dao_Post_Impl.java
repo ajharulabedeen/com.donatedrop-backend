@@ -83,7 +83,7 @@ public class Test_Dao_Post_Impl {
         Assert.assertNull(p);
     }
 
-    @Test
+//    @Test
     public void testFindOneByID() {
 //        `post_id`=20618;
         Post p = dao_post_i.findOnePostByID(getID());
@@ -240,7 +240,7 @@ public class Test_Dao_Post_Impl {
         System.out.println(totalCommet);
     }
 
-    @Test
+//    @Test
     public void testReadOneComment() {
         // right value test
         String postID = getID();
@@ -255,7 +255,7 @@ public class Test_Dao_Post_Impl {
         Assert.assertNull(postComment);
     }
 
-    @Test
+//    @Test
     public void testUpdateComment() {
         Map<String, String> status = null;
         // right value test
@@ -275,7 +275,7 @@ public class Test_Dao_Post_Impl {
         Assert.assertEquals(StringUtil.OK, status.get(StringUtil.STATUS));
     }
 
-    @Test
+//    @Test
     public void testDeleteComment() {
         Map<String, String> status = null;
         // right value test

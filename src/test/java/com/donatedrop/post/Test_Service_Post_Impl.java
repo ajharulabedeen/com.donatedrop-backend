@@ -239,7 +239,7 @@ public class Test_Service_Post_Impl {
 //    }
 
     //    done
-    @Test
+//    @Test
     public void testUpdateComment() {
         Map<String, String> status = null;
         // right value test
@@ -302,7 +302,7 @@ public class Test_Service_Post_Impl {
 //    end : comment
 
     //done.
-    @Test
+//    @Test
     public void testDeletePost() {
         String userID = getUserID();
         String postID = getID();

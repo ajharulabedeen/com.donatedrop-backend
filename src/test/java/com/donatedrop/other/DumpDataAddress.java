@@ -18,7 +18,7 @@ public class DumpDataAddress {
     @Autowired
     private Dao_GeoCode_I dao_GeoCode_I;
 
-    @Test
+//    @Test
     public void testGenerateAddress() {
         Random r = new Random();
         for (int x = 0; x < 1000; x++) {

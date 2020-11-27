@@ -51,7 +51,7 @@ public class Test_Dao_AgentDonner_Impl {
         System.out.println("\n" + dao_agentDonner_i + "\n");
     }
 
-    @Test
+//    @Test
     @Order(1)
     public void testSaveRequestDonnerToAgent() {
         String userID = dumpDao.getNotRequestedDonnerToAgentUsers(0, 5).get(0).toString();
@@ -64,7 +64,7 @@ public class Test_Dao_AgentDonner_Impl {
     }
 
     //refactor : have to set another user ID.
-    @Test
+//    @Test
     @Order(1)
     public void testFindOne() {
         String requestID = "23001";
@@ -74,7 +74,7 @@ public class Test_Dao_AgentDonner_Impl {
     }
 
     // refactor : automatic user id
-    @Test
+//    @Test
     @Order(1)
     public void testFindOneRequestUserID() {
         String userID = "11148";
@@ -85,7 +85,7 @@ public class Test_Dao_AgentDonner_Impl {
     }
 
     // refactor : automatic user id
-    @Test
+//    @Test
     @Order(1)
     public void testDeleteRequestByUserID() {
         String userID = "11148";

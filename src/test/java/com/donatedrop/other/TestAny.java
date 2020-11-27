@@ -78,7 +78,7 @@ public class TestAny {
         System.out.println(DumpData.getStreetAddress());
     }
 
-    @Test
+//    @Test
     public void testGenerelDao() {
         daoDump.getAllUsers().forEach(user -> System.out.println(user.getId()));
     }

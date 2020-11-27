@@ -117,7 +117,7 @@ public class Test_Controller_DonnerAssign extends AbstractTest {
     }
 
 
-    @Test
+//    @Test
     public void testDeleteAssignment() throws Exception {
 //        INSERT INTO `donnerassingment` (`donner_assingment_id`, `agent_id`, `donner_id`, `assing_date`, `assing_note`, `need_date`, `post_id`, `blood_manage_status`)
 //        VALUES ('21463', '11186', '12044', '2020-08-23 05:23:13', 'Note Assign', '2017-07-10', NULL, '0')

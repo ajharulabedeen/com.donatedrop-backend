@@ -59,14 +59,14 @@ public class Test_Dao_DonnerAssign_Impl {
 
     }
 
-    @Test
+//    @Test
     public void testFindOneByID() {
         DonnerAssingment donnerAssingment = dao_donnerAssign_i.findOne("21440");
         System.out.println(donnerAssingment.toString());
         assertNotNull(donnerAssingment);
     }
 
-    @Test
+//    @Test
     public void testUpdate() {
         DonnerAssingment donnerAssingmentOld = dao_donnerAssign_i.findOne("21440");
         String newNote = "By emial confirmation--------------!";
@@ -79,7 +79,7 @@ public class Test_Dao_DonnerAssign_Impl {
         System.out.println(donnerAssingmentNew.toString());
     }
 
-    @Test
+//    @Test
     public void testDelete() {
         Map<String, String> result = dao_donnerAssign_i.delete("21438");
         assertEquals(StringUtil.OK, result.get(StringUtil.STATUS));

@@ -113,7 +113,7 @@ public class Test_Controller_Post extends AbstractTest {
     }
 
 
-    @Test
+//    @Test
     @Order(1)
     public void testUpdate() throws Exception {
         String uri = "/public/user/post/updatePost";

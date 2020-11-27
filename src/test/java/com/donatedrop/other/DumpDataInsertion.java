@@ -58,7 +58,7 @@ public class DumpDataInsertion {
     }
 
     //start : profile
-    @Test
+//    @Test
     public void testBatchProfileBasicInsert() throws Exception {
 //        Working Code, will insert all.
         //        List<User> idList = userRepository.findAll();
