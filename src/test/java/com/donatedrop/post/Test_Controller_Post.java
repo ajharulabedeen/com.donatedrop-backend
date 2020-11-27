@@ -21,7 +21,6 @@ import com.donatedrop.profile.model.ProfileBasic;
 import com.donatedrop.util.DateUtil;
 import com.donatedrop.util.StringUtil;
 import com.donatedrop.util.Utils;
-import javafx.geometry.Pos;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

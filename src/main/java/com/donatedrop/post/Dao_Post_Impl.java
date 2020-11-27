@@ -9,8 +9,6 @@ import com.donatedrop.post.model.PostcommentWithUserInfo;
 import com.donatedrop.profile.model.ProfileBasic;
 import com.donatedrop.util.DateUtil;
 import com.donatedrop.util.StringUtil;
-import javafx.geometry.Pos;
-import lombok.Builder;
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.stereotype.Component;
 

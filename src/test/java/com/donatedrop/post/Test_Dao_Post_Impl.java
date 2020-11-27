@@ -9,7 +9,6 @@ import com.donatedrop.post.model.PostcommentWithUserInfo;
 import com.donatedrop.security.models.User;
 import com.donatedrop.util.PostType;
 import com.donatedrop.util.StringUtil;
-import javafx.geometry.Pos;
 import org.junit.Assert;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
